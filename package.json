@@ -1,5 +1,5 @@
 {
-  "name": "DGL-113-Week-04-Assignment",
+  "name": "DGL-113-Week-05-Assignment",
   "packageManager": "yarn@3.3.1",
   "jest": {
     "preset": "jest-puppeteer"
@@ -7,9 +7,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "test-toggleon": "jest toggleon",
-    "test-toggleoff": "jest toggleoff",
-    "test-copyselected": "jest copyselected"
+    "test-edwords": "jest edwords",
+    "test-otherwords": "jest otherwords"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
